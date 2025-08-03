@@ -119,3 +119,18 @@ This refactor:
 - Fixed SQL injection & password security issues
 - Added proper validation, error handling, and status codes
 - Improved structure and documentation without changing API behavior
+
+## 7. AI Assistance Disclosure
+You are permitted to use AI assistants (ChatGPT, GitHub Copilot, etc.) as you would any other tool.  
+For this refactor:
+
+**Tools Used:**
+- **ChatGPT (OpenAI)** — Used for guidance and generating initial refactored code patterns.
+
+**Purpose:**
+- Provided secure coding practices (parameterized SQL, password hashing).
+- Suggested validation improvements.
+
+**Modifications Made:**
+- Some AI suggestions (e.g., full Blueprint-based routes structure) were **partially adopted**;
+- Regex and validation logic were adjusted manually for project constraints. AI suggested regex but I used Validator package.
